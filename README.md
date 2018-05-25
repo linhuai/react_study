@@ -54,8 +54,8 @@
 							</ul>
 						</nav>
 						<div className="content">
-							<route exact path="/" component={Home} />
-							<route path="/contact" component={Contact} />
+							<Route exact path="/" component={Home} />
+							<Route path="/contact" component={Contact} />
 						</div>
 					</div>
 				</HashRouter>
